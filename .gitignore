@@ -1,0 +1,23 @@
+# Environment variables — NEVER upload this
+.env
+
+# Vector store index (large files, rebuild locally)
+vectorstore/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+chatbot_env/
+venv/
+env/
+
+# Parsed data (can be regenerated)
+qa_pairs.json
+
+# OS files
+.DS_Store
+Thumbs.db
